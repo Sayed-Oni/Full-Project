@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Header Start */
+
+header {
+  background-color: black;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+.logo__home {
+  padding: 8px 16px;
+  width: auto;
+  display: block;
+  float: left;
+  border: none;
+  background-color: lightseagreen;
+  color: white;
+  text-decoration: none;
+}
+.logo__home:hover {
+  background-color: gray;
+  color: black;
+}
+.navbar {
+  padding: 8px 16px;
+  width: auto;
+  display: block;
+  float: left;
+  border: none;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+.navbar:hover {
+  background-color: white;
+  color: black;
+}
+.dropdown {
+  padding: 8px 16px;
+  width: auto;
+  display: block;
+  float: left;
+  border: none;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+.dropdown:hover {
+  background-color: gray;
+  color: black;
+}
+.dpn {
+  display: none;
+  position: absolute;
+}
+.dpn a {
+  padding: 8px 60px;
+  width: auto;
+  display: block;
+  border: none;
+  text-decoration: none;
+  position: absolute;
+  background-color: white;
+  color: black;
+}
+.dpn a:hover {
+  background-color: grey;
+  display: block;
+}
+.dropdown:hover .dpn a {
+  display: inline-block;
+  position: absolute;
+}
+.search__box {
+  position: absolute;
+  background-color: black;
+  color: white;
+  right: 0px;
+  font-size: 15px;
+  justify-content: center;
+  padding: 8px 16px;
+}
+.search__box:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+
+/* Header End */
+
+/* Boat Img Start */
+
+.imgboat {
+  width: 100%;
+  padding-top: 38px;
+}
+
+/* Boat IMg Start */
+
+/* Our Team + Avatar Start */
+
+.ot {
+  text-align: center;
+  font-size: 15px;
+}
+.row {
+  display: flex;
+  text-align: center;
+}
+.quarter {
+  width: 100%;
+}
+.circle {
+  border-radius: 50%;
+}
+
+/* Our Team + Avatar End */
+
+/* Our Work + Card Start */
+.theme {
+  color: #fff;
+  background-color: #333333;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.quarter1 {
+  width: 310px;
+  box-sizing: inherit;
+  display: block;
+}
+.ow {
+  padding: 0 8px;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 30px;
+}
+.pera {
+  padding: 0 8px;
+  font-size: 15px;
+}
+.owcard {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.quarter2 {
+  margin: 0 8px;
+  margin-bottom: 10px;
+  width: 310px;
+  float: left;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+/* Our Work + Card End */
+
+/* Pricing + Card Start*/
+
+.thame {
+  margin: 0;
+  padding: 0;
+  padding: 0 10px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+.pricingcard {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+.priz {
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+}
+.quarter3 {
+  text-align: center;
+  width: 420px;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+.quarter3:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul {
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+ul li {
+  padding: 8px 16px;
+  box-sizing: inherit;
+  display: block;
+  border-bottom: 1px solid#ddd;
+}
+.basic {
+  color: #fff;
+  background-color: #000000;
+  font-size: 24px;
+  padding: 20px 00px;
+}
+.pro {
+  color: #fff;
+  background-color: #666666;
+  font-size: 24px;
+  padding: 20px 0px;
+}
+.sed {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.lisingup {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background-color: #ccc;
+}
+
+.btnsingup {
+  padding: 12px 24px;
+  border: none;
+  color: #fff;
+  background-color: #009688;
+  cursor: pointer;
+}
+.btnsingup:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+/* Pricing + Card End*/
+
+/* Boat Img Start */
+
+.imgmap {
+  padding: 0;
+}
+
+/* Boat Img Start */
+
+/* Footer Start */
+footer {
+  color: #fff;
+  background-color: #000000;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  text-align: center;
+}
+.flwme {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.endlogos .fa {
+  color: #fff;
+  background-color: #009688;
+  font-size: 18px;
+  display: inline-block;
+  padding: 8px 16px;
+}
+.Shakib {
+  color: inherit;
+}
+.gtt {
+  display: none;
+  padding: 8px 16px;
+  color: #fff !important;
+  background-color: #009688;
+  box-sizing: inherit;
+  text-align: center;
+}
+
+.arrow {
+  font-size: 24px;
+
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff !important;
+  background-color: #000000;
+}
+.arrow:hover {
+  color: red;
+}
+/* Footer End */
